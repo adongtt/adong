@@ -118,7 +118,7 @@ def update_or_create_activity(session, run_activity):
                         )
                     except Exception as e:
                         pass
-
+            print(location_country)
             activity = Activity(
                 run_id=run_activity.id,
                 name=run_activity.name,
