@@ -95,6 +95,7 @@ def update_or_create_activity(session, run_activity):
         if run_activity.type in TYPE_DICT:
             type = TYPE_DICT[run_activity.type]
         if not activity:
+            print(run_activity)
             start_point = run_activity.start_latlng
             location_country = getattr(run_activity, "location_country", "")
             # or China for #176 to fix
