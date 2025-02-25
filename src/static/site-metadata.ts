@@ -11,7 +11,7 @@ interface ISiteMetadataResult {
 }
 
 const data: ISiteMetadataResult = {
-  siteTitle: '东坪山吴彦祖的跑步世界',
+  siteTitle: 'adong的跑步世界',
   siteUrl: 'https://adongtt.github.io/adong',
   logo: 'https://uk.weika.live/github.jpg',
   description: 'Personal site and blog',
