@@ -181,7 +181,6 @@ class Generator:
 
         streak = 0
         last_date = None
-        firt = 1
         for activity in activities:
             # Determine running streak.
             # if activity.type == "Run" or activity.type == "Walk":
@@ -199,13 +198,8 @@ class Generator:
                 streak = 1
             activity.streak = streak
             last_date = date
-            if firt == 1:
-                firt = 2
-                activity_list.append(activity.to_dict())
-            else:
-                for item in activity_list:
-                    if item["start_date_local"] != activity.start_date_local:
-                        activity_list.append(activity.to_dict())
+            activity_list.append(activity.to_dict())
+
         return activity_list
 
     def get_old_tracks_ids(self):
