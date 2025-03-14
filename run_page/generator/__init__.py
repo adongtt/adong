@@ -204,7 +204,7 @@ class Generator:
                 activity_list.append(activity.to_dict())
             else:
                 for item in activity_list:
-                    if item.start_date_local != activity.start_date_local:
+                    if item["start_date_local"] != activity.start_date_local:
                         activity_list.append(activity.to_dict())
         return activity_list
 
