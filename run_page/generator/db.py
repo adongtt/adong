@@ -87,32 +87,31 @@ class Activity(Base):
 def update_or_create_activity(session, run_activity):
     created = False
     try:
-        # 检查是否存在相同 start_date_local 的记录
-        existing_activity_by_date = (
+        # 新增判断：检查是否存在相同 start_date_local 但不同 run_id 的记录
+        duplicate_activity = (
             session.query(Activity)
-            .filter_by(start_date_local=run_activity.start_date_local)
+            .filter(
+                Activity.start_date_local == run_activity.start_date_local,
+                Activity.run_id != int(run_activity.id),  # 排除自身（如果是更新操作）
+            )
             .first()
         )
+        if duplicate_activity:
+            print(f"Duplicate start_date_local found for activity {run_activity.id}, skipping.")
+            return created  # 直接返回，不执行后续操作
 
-        # 如果存在相同 start_date_local 的记录，并且 run_id 不同，则跳过
-        if existing_activity_by_date and existing_activity_by_date.run_id != run_activity.id:
-            print(f"Activity with start_date_local {run_activity.start_date_local} already exists. Skipping.")
-            return created
-
-        # 查询是否存在相同 run_id 的记录
+        # 原有逻辑继续...
         activity = (
-            session.query(Activity)
-            .filter_by(run_id=int(run_activity.id))
-            .first()
+            session.query(Activity).filter_by(run_id=int(run_activity.id)).first()
         )
-
+        # activity = (
+        #     session.query(Activity).filter_by(run_id=int(run_activity.id)).first()
+        # )
         type = run_activity.type
         source = run_activity.source if hasattr(run_activity, "source") else "gpx"
         if run_activity.type in TYPE_DICT:
             type = TYPE_DICT[run_activity.type]
-
         if not activity:
-            # 如果没有相同 run_id 的记录，则创建新记录
             start_point = run_activity.start_latlng
             location_country = getattr(run_activity, "location_country", "")
             # or China for #176 to fix
@@ -156,7 +155,6 @@ def update_or_create_activity(session, run_activity):
             session.add(activity)
             created = True
         else:
-            # 如果有相同 run_id 的记录，则更新记录
             activity.name = run_activity.name
             activity.distance = float(run_activity.distance)
             activity.moving_time = run_activity.moving_time
@@ -174,7 +172,6 @@ def update_or_create_activity(session, run_activity):
         print(str(e))
 
     return created
-
 
 def add_missing_columns(engine, model):
     inspector = inspect(engine)
