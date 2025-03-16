@@ -91,8 +91,7 @@ def update_or_create_activity(session, run_activity):
         duplicate_activity = (
             session.query(Activity)
             .filter(
-                Activity.start_date_local == run_activity.start_date_local,
-                Activity.run_id != int(run_activity.id),  # 排除自身（如果是更新操作）
+                Activity.start_date_local == run_activity.start_date_local
             )
             .first()
         )
