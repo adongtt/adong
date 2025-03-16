@@ -96,6 +96,7 @@ def update_or_create_activity(session, run_activity):
             )
             .first()
         )
+        print(duplicate_activity)
         if duplicate_activity:
             print(f"Duplicate start_date_local found for activity {run_activity.id}, skipping.")
             return created  # 直接返回，不执行后续操作
