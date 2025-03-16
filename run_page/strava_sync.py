@@ -16,17 +16,17 @@ def run_strava_sync(client_id, client_secret, refresh_token, only_run=False):
     activities_list = generator.loadForMapping()
     with open(JSON_FILE, "w") as f:
         json.dump(activities_list, f, indent=0)
-    # with open(JSON_FILE, 'r', encoding='utf-8') as f:
-    #     data = json.load(f)
+    with open(JSON_FILE, 'r', encoding='utf-8') as f:
+        data = json.load(f)
     
-    # unique_records = {}
-    # for record in data:
-    #     unique_records[record['start_date_local']] = record
+    unique_records = {}
+    for record in data:
+        unique_records[record['start_date_local']] = record
     
-    # deduplicated_data = list(unique_records.values())
+    deduplicated_data = list(unique_records.values())
     
-    # with open(JSON_FILE, 'w', encoding='utf-8') as f:
-    #     json.dump(deduplicated_data, f, indent=4)
+    with open(JSON_FILE, 'w', encoding='utf-8') as f:
+        json.dump(deduplicated_data, f, indent=4)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
