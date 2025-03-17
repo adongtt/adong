@@ -87,26 +87,9 @@ class Activity(Base):
 def update_or_create_activity(session, run_activity):
     created = False
     try:
-        # 新增判断：检查是否存在相同 start_date_local 但不同 run_id 的记录
-        duplicate_activity = (
-            session.query(Activity)
-            .filter(
-                Activity.start_date == run_activity.start_date
-            )
-            .first()
-        )
-        print(duplicate_activity)
-        if duplicate_activity:
-            print(f"Duplicate start_date_local found for activity {run_activity.id}, skipping.")
-            return created  # 直接返回，不执行后续操作
-
-        # 原有逻辑继续...
         activity = (
             session.query(Activity).filter_by(run_id=int(run_activity.id)).first()
         )
-        # activity = (
-        #     session.query(Activity).filter_by(run_id=int(run_activity.id)).first()
-        # )
         type = run_activity.type
         source = run_activity.source if hasattr(run_activity, "source") else "gpx"
         if run_activity.type in TYPE_DICT:
@@ -172,6 +155,7 @@ def update_or_create_activity(session, run_activity):
         print(str(e))
 
     return created
+
 
 def add_missing_columns(engine, model):
     inspector = inspect(engine)
