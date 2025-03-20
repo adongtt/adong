@@ -19630,5 +19630,21 @@
 "elevation_gain": 397.0,
 "source": "strava",
 "streak": 5
+},
+{
+"run_id": 13932007968,
+"name": "Morning Hike \ud83c\udf1e",
+"distance": 964.9,
+"moving_time": "0:19:52",
+"type": "Hike",
+"start_date": "2025-03-20 00:24:36+00:00",
+"start_date_local": "2025-03-20 08:24:36",
+"location_country": "\u6587\u5174\u897f\u8def, \u83b2\u524d\u8857\u9053, \u524d\u57d4\u6751, \u601d\u660e\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, 361008, \u4e2d\u56fd",
+"summary_polyline": "cdktCyecpU@PJ@PJDHZPHDJAn@HPBTLHCJF@NAJBBL?RHL?XHBCR_@HGJ?BIZELIH?h@MHI?QACRG`@]L@FDDAHBH?VBPFDALJH?NMLDDGAADYLQNCRFDGEQC?EI?QEI?CF??SHIZMF?HBLADIGK@ICGRIFIPEF?RMN?B@?FIBb@GFHD?BMIMAQFKJIL?LCFD\\B@D@?DB?FDFLGPFLEDB\\?BFB@@EF?DIDBZ@LCJYRMPWFCFI?ECGFIAAD?JIAGMG",
+"average_heartrate": 146.7,
+"average_speed": 0.809,
+"elevation_gain": 208.0,
+"source": "strava",
+"streak": 6
 }
 ]
