@@ -19710,5 +19710,37 @@
 "elevation_gain": 652.0,
 "source": "strava",
 "streak": 9
+},
+{
+"run_id": 13988830331,
+"name": "Morning Hike \ud83c\udf25\ufe0f",
+"distance": 934.2,
+"moving_time": "0:20:43",
+"type": "Hike",
+"start_date": "2025-03-26 00:51:50+00:00",
+"start_date_local": "2025-03-26 08:51:50",
+"location_country": "\u6587\u5174\u897f\u8def, \u83b2\u524d\u8857\u9053, \u524d\u57d4\u6751, \u601d\u660e\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, 361008, \u4e2d\u56fd",
+"summary_polyline": "edktCwecpU@PN@JDNNFJLFHFNCRBZFVJ\\BD@?DCVXDLFN?RDHIHSFERE@I\\CNKr@IFKDYPIVUPADDH@BAFB`@ANJDATJJAFKLBBYDIRQRA?k@GKDEBU`@QLCNM?SBIP?HMTCROPBDJHGF?D?BJH?@E@MMMCG@GHMJEN@JELJX?@BD?HR?ENCJFJGJBV?@FDBPMR?JDBEH?FIBMNGFKLK@ILG@ECKFMDBDC@ECI",
+"average_heartrate": 143.3,
+"average_speed": 0.752,
+"elevation_gain": 219.0,
+"source": "strava",
+"streak": 1
+},
+{
+"run_id": 13992224828,
+"name": "Evening Run \ud83c\udf19",
+"distance": 6002.8,
+"moving_time": "0:36:46",
+"type": "Run",
+"start_date": "2025-03-26 12:22:51+00:00",
+"start_date_local": "2025-03-26 20:22:51",
+"location_country": "\u91d1\u5c1a\u5c0f\u533a, \u6c5f\u5934\u8857\u9053, \u91d1\u5c1a, \u6e56\u91cc\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, 361009, \u4e2d\u56fd",
+"summary_polyline": "ulotCwyapUOb@SPU`AQLMFU@i@QSCaAa@}AUaAYyAY_@QqAQy@Y{@Qa@SM?a@K_@MWCm@Wa@k@}@^WMMBYCYBEECMEKQIm@Hc@N]D_AGmBGo@DuACm@@e@Mm@@mAGS@m@G]Dg@EM@o@ISAM@_@ESDGC]?YCm@FgBKi@@aACO@yAEQCc@?c@E[GSFi@@k@Gw@?}AI[@aCEa@@m@Gm@?e@IwABYHa@FeBHiATyCVYAKSK?e@RIJSFeCZ{D^U@[GSSAGUDGDQX_@NkBFc@HeAHe@JmAJsCf@w@R_@Du@Zo@N[N_AX[P_Bf@OLGA@?CDQDIJc@PORURW\\]XU\\g@d@MRq@j@_@d@S`@c@h@KXW`@o@z@k@`Ao@x@U`@QROZ]d@QJKEG?QREr@MRq@x@c@r@Y\\oAtB]`@s@fAWd@QRi@t@m@j@c@l@cA`AeAv@c@f@cAr@m@j@_@TWZkAz@SRE?QLWVeAt@WBIDICKFORKn@CBsAz@eA|@a@d@sAfAo@`@QR[PSPGLE@LXPPl@VDN?ZL`@xAnB|@xAVXd@r@j@p@Tb@VTHRKIOSGSe@g@KSm@q@Qa@Y]e@w@KIw@gAWc@Oa@@qABQFKl@g@^UV[`Ay@^c@h@e@v@o@`Am@VSf@i@`Am@dAiA~@m@f@c@BIc@Zg@b@s@t@MH",
+"average_heartrate": 138.5,
+"average_speed": 2.721,
+"elevation_gain": 13.0,
+"source": "strava",
+"streak": 1
 }
 ]
