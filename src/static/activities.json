@@ -19937,7 +19937,7 @@
 },
 {
 "run_id": 14193923367,
-"name": "Evening Run \u2601\ufe0f\ud83c\udf19",
+"name": "\u966a\u8c46\u8c46\u8dd12\u516c\u91cc",
 "distance": 2164.9,
 "moving_time": "0:17:55",
 "type": "Run",
@@ -19950,5 +19950,37 @@
 "elevation_gain": 4.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 14202376184,
+"name": "Afternoon Hike \u2601\ufe0f",
+"distance": 1151.1,
+"moving_time": "0:22:36",
+"type": "Hike",
+"start_date": "2025-04-17 09:17:43+00:00",
+"start_date_local": "2025-04-17 17:17:43",
+"location_country": "\u6d2a\u6587\u4e00\u91cc, \u83b2\u524d\u8857\u9053, \u53a6\u95e8\u5e02, \u601d\u660e\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, 361008, \u4e2d\u56fd",
+"summary_polyline": "udktC_qcpUJAFBRNBF?XETAXRHBNM?C?BBC?USEJBD@r@ItAEZ?pAVBHNJHZLHATDb@PPDDAFDHCF@@LAHBFL@@ATDJ?PFNGNSNGDK\\ANIVCVIFI?KDGPGZWPAHHd@I`@JFDF@NAJIDDD?BYDIFAFKNCD?@SCG?MGKBEDACG@IRGPKHCPM@OAG@C`@MVANUF?PHPGB@@LHA@AAIEGCK@MBCJAFCN@HGD?LDPCADNPRELFFACAFCXD@@?ALHFCD@FITCJB@CJ?DSRKB@DQFEBIFIBIAEBE?EBCH@DCEK",
+"average_heartrate": 124.5,
+"average_speed": 0.849,
+"elevation_gain": 218.0,
+"source": "strava",
+"streak": 2
+},
+{
+"run_id": 14207960770,
+"name": "Morning Run",
+"distance": 5004.0,
+"moving_time": "0:29:43",
+"type": "Run",
+"start_date": "2025-04-17 22:28:56+00:00",
+"start_date_local": "2025-04-18 06:28:56",
+"location_country": "\u4e2d\u798f\u57ce, \u6c5f\u5934\u8857\u9053, \u91d1\u5c1a, \u6e56\u91cc\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, 361009, \u4e2d\u56fd",
+"summary_polyline": "shotCy{apUBNRd@Rh@FXBTAh@Mz@GL@HEPXLrATTH`@Ff@PXBz@RL@VHl@Fz@Rp@JZLVDL?t@Rh@FNA\\Hf@D^Jj@Fj@@n@FVFNAl@@hALp@D|@L`@BZCtAJH?FEvAXfBT^H~@FzARpAVT@d@CTMDI?SBIDIFCt@Zr@PbBDPALGFEDO\\m@Lk@IWa@m@k@gAESS_BCc@Ba@Rs@DW@a@Sq@U_@eA_Dc@y@Mc@CWHiAj@kBBI@a@Cc@q@iBGUAGBEH?G?GGOqAQYc@WM@iAE[DU?WEEK?Y@k@F]MKQBODW\\QHe@Dy@IyAUwA[eA_@y@S{Aq@q@Se@BSJQPOHWBMACG@KJWBCLWAWDWJUAEeAYoDi@wAm@[PId@GFwBUwAAkHUqAKiASIDIVBH?CC?EBc@S]IK?GHEV?dAQv@?PKp@C\\Il@ARCDo@Ko@Q]C@NEPUAIDADk@fDYt@A\\KZg@dDSf@Qj@?XUpB]|AQl@CPMp@Gr@GPCR@TTLl@HdE~@n@Xv@Td@Db@@JNHFp@N|AT^N`ANnBd@N?NMFSN{@AUCIQK[CUMC@",
+"average_heartrate": 141.2,
+"average_speed": 2.807,
+"elevation_gain": 33.0,
+"source": "strava",
+"streak": 3
 }
 ]
