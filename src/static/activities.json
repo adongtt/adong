@@ -20078,5 +20078,21 @@
 "elevation_gain": 1073.0,
 "source": "strava",
 "streak": 1
+},
+{
+"run_id": 14300601993,
+"name": "Morning Trail Run \ud83c\udf25\ufe0f",
+"distance": 20485.8,
+"moving_time": "5:38:30",
+"type": "Run",
+"start_date": "2025-04-27 00:39:17+00:00",
+"start_date_local": "2025-04-27 08:39:17",
+"location_country": "\u4e1c\u5b5a\u8857\u9053, \u5929\u7afa\u5c71\u6797\u573a, \u6d77\u6ca7\u533a, \u53a6\u95e8\u5e02, \u798f\u5efa\u7701, \u4e2d\u56fd",
+"summary_polyline": "gh`uCw`tnUoC|C^j@EJQa@`KnJXlArAjCB|@QjAT`CExAVhAm@fAIjBpE{@~DzA|@|BD~A[vBsC|EaD~AiArA]JKT@`@uCtA}F`Go@nASbCkA|@s@dBcDbBeBf@cCR_@fB{@fA{@|C]JBKAH_Ar@kBt@_C`CmAhB_Ad@g@lAi@Tq@zAcAd@APES@b@Yp@cBfBJjDa@bAGnAgBlBmBbDAx@d@jASbAuBhCqE~@QKEd@]XmALc@WMsAa@]LaCgAwC_AyAgAk@}@qAu@Ui@DyBeAs@DyFYwBe@yA}Co@m@}AkE[EkBkBeCg@w@?cAZwAWgCLuAzB_BIw@j@kBb@o@IuBRWUaCE]B}@ZcB[kADcAaCe@o@qCi@eBr@kAFQh@oDpCk@hAoAr@_Ba@u@eA{A^iBCe@`@wAw@gBMeBiAgB^c@UcA?_Ae@_@V[BwAEkCl@e@YCg@Bj@a@U?`@WOg@l@QAo@n@eBfCk@vBc@vCQ|B{AxBs@XyAjCgBPsCdAoAOcDrAuDiAqAK{AVKMuJzAwCjC_Db@iAg@mB@_@XMMsErC]zBK|AeCfDYx@aAt@qAxAg@`Aw@b@iAnBkFlAqB`BWl@gBXe@`@]@wAk@}EKsCp@IMRyBmAmCgAUaAiAy@`@qAAsBaGeBw@pAFd@KcAIYWu@yA@]hDBv@cAo@UgAkA{Bo@Xu@Uk@qAUIRVGHTJCIM_Ak@iFa@}EeDw@wAuEUmA{A@sAj@cC_BmAoAYy@sAsEcClBaAzN{EdFm@vNeDzPmEf@mFjBmHX_Fj@iDtByD[iBoAuBMwAJeLL}BXiA^c@|Am@rOsD`EqFbFgHzIkGxCuCpEu@bBDjAa@dBf@pDZdDkBpDSl@PEZgAv@y@vAy@JLB_Al@G\\VJpAc@pBAnDaDhAe@vAMtAkAjBTvDe@d@D^h@^|Cd@^b@Ed@g@XmB^[lDfAxADJh@s@RgC]Ab@j@x@Lv@S\\aAHQXnBTb@a@Ry@r@MZL~@~Ab@JdAgD`@_@hAAjAv@zAS|@RZq@xCUvAiBx@_@FgC[Ou@JeAq@I{@_@m@J}BT_@tBGr@e@z@F|@]bAl@|@o@`B?\\u@rAUMqBr@Sj@}@n@p@~@DfDjCl@gA`A[Uo@XyB`ACh@y@`Af@d@O",
+"average_heartrate": 123.7,
+"average_speed": 1.009,
+"elevation_gain": 1567.0,
+"source": "strava",
+"streak": 2
 }
 ]
